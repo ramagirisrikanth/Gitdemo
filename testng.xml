@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="url" value="https://login.yahoo.com"/>
+  <parameter name="username" value="srikanth@yahoo.com"/>
+  <parameter name="password" value="srikanth133"/>
+  <classes>
+  <class name="NewRanfordapplication.testngparameterTest"/>
+ </classes>
+  </test> 
+</suite> <!-- Suite -->
